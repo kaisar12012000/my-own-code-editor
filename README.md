@@ -6,25 +6,25 @@ The left side of the screen is a text editor with auto-complete feature. From th
 
 ## Tech stack
 1. For Backend:
-  -> NodeJS
-  -> Express
+  - NodeJS
+  - Express
 2. For Frontend:
-  -> React
+  - React
 
 ## Dependencies
--> NodeJS `fs` module
--> NodeJS `path` module
--> NodeJS `child_process` module
--> `react-ace`
+- NodeJS `fs` module
+- NodeJS `path` module
+- NodeJS `child_process` module
+- `react-ace`
 
 ## Working
--> We type in the code and file extension and save it in states as strings.
--> Then react makes a `post` request to our backend.
--> Our backend server then uses the `fs` module to create a file of the chosen extension.
--> Then with the help of `exec` function of `child_process` module we execute the file created.
--> We then fetch the output and return it in our API response body.
--> From there react takes the output and renders it in the output space.
+- We type in the code and file extension and save it in states as strings.
+- Then react makes a `post` request to our backend.
+- Our backend server then uses the `fs` module to create a file of the chosen extension.
+- Then with the help of `exec` function of `child_process` module we execute the file created.
+- We then fetch the output and return it in our API response body.
+- From there react takes the output and renders it in the output space.
 
 ## Upcomming updates
--> I look forward to add a room functionality so users can code solo or collaborate on other projects.
--> I look forward to increase the number of languages that the user can code in.
+- I look forward to add a room functionality so users can code solo or collaborate on other projects.
+- I look forward to increase the number of languages that the user can code in.
