@@ -30,4 +30,4 @@ The left side of the screen is a text editor with auto-complete feature. From th
 - I look forward to increase the number of languages that the user can code in.
 
 ## Have a look at it working
-![alt-text](https://github.com/kaisar12012000/my-own-code-editor/blob/master/GitHub%20video.gif)
+![](https://github.com/kaisar12012000/my-own-code-editor/blob/master/GitHub%20video.gif)
